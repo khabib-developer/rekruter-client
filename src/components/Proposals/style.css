@@ -1,0 +1,21 @@
+.asnwer-wrapper {
+    position: relative;
+    /* z-index: 1; */
+}
+
+.answer {
+    position: absolute;
+    transition: all .2s ease;
+    margin-top: -100%;
+    opacity: 0;
+    z-index: -1;
+    display: none;
+}
+
+.open-answer {
+    margin-top: 0% !important;
+    opacity: 1 !important;
+    z-index: 1;
+    position: relative;
+    display: block;
+}

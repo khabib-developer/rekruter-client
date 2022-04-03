@@ -1,0 +1,11 @@
+.content {
+    min-height: 40vh;
+}
+
+.edit-delete {
+    display:none;
+}
+
+.avatar-wrapper:hover .edit-delete {
+    display: flex;
+}

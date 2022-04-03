@@ -1,0 +1,32 @@
+.statistic-info {
+    border-radius: 10px;
+}
+
+.timer-wrapper {
+    text-align: center;
+    padding: 70px 50px;
+    height: 100%;
+    /* background: #0D1A29; */
+    font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;  
+}
+  
+.timer {  
+    font-size: 3em;
+    font-weight: 100;
+    color: red;
+    text-shadow: 0 0 20px #997e84;
+    /* text-shadow: 0 0 20px #48C8FF; */
+}
+
+.timer div {
+    display: inline-block;
+    min-width: 90px;
+}
+
+.timer div span {
+    color: #3b1c21;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+}
+  
